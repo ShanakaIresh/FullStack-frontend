@@ -32,7 +32,131 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: rgb(196, 76, 196);
+}
+
+.title {
+  margin-top: 30px;
+  color: white;
+}
+
+.blogBar {
+  background-color: rgb(120, 50, 212);
+  width: 70px;
+  height: 30px;
+  margin-left: 100px;
+  color: wheat;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  margin-top: 15px;
+  padding-top: 2px;
+}
+
+.contactBar {
+  padding-left: 3px;
+  padding-top: 2px;
+  background-color: rgb(120, 50, 212);
+  width: 90px;
+  height: 30px;
+  margin-left: 30px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 15px;
+
+}
+
+.createBar {
+  padding-left: 3px;
+  padding-top: 2px;
+  color: white;
+  margin-left: 30px;
+  background-color: rgb(120, 50, 212);
+  width: 130px;
+  height: 30px;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 15px;
+
+}
+
+.navBar {
+  margin-top: 30px;
+  color: white;
+  display: flex;
+
+}
+
+.blog {
+  margin-top: 100px;
+  margin-left: 510px;
+  background-color: rgb(229, 30, 100);
+  width: 300px;
+  height: 220px;
+  color: white;
+  border-radius: 20px;
+}
+
+.blogTopic {
+  padding-top: 10px;
+}
+
+.blogContent {
+  padding-top: 15px;
+}
+
+.blogAuthor {
+  margin-left: 160px;
+}
+
+.btn {
+  background-color: rgb(140, 7, 118);
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(140, 7, 118);
+}
+
+.link {
+  text-decoration: none;
+  color: aliceblue;
+  justify-content: center;
+
+
+}
+
+.head {
+  margin-left: 70px;
+}
+
+.newBlog {
+  margin-top: 40px;
+}
+
+.newTopic {
+  margin-top: 50px;
+}
+
+.newContent {
+  margin-top: 15px;
+}
+
+.newAuthor {
+  margin-top: 15px;
+}
+
+.submit {
+  margin-top: 15px;
+}
+
+.btn:hover {
+  color: white;
 }
